@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trình phát nhạc từ Mega</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .playlist { margin: 20px; }
+        .song { cursor: pointer; color: blue; margin: 10px; }
+        .song:hover { text-decoration: underline; }
+        #title { margin: 10px 0; }
+        #error { color: red; margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Trình phát nhạc</h1>
+    <h4 id="title"></h4>
+    <div id="error"></div>
+    <audio id="player" controls>
+        <source src="" type="audio/mpeg">
+        Trình duyệt không hỗ trợ.
+    </audio>
+    <div class="playlist">
+        <h3>Danh sách bài hát</h3>
+        <!-- Danh sách bài hát -->
+    </div>
+
+    <script>
+        // Danh sách bài hát: dùng link chia sẻ từ Mega (có key hoặc không)
+        const playlist = [
+            { title: "Anh Cho Em Mùa Xuân", shareLink: "https://u.pcloud.link/publink/show?code=XZF8Dh5ZCn8HnqJhsdujT5ehUpMvf4xtW7Bk" },
+            { title: "Bài test", shareLink: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" }
+        ];
+
+        const player = document.getElementById('player');
+        const title = document.getElementById('title');
+        const errorDiv = document.getElementById('error');
+        const playlistDiv = document.querySelector('.playlist');
+
+        // Hàm xử lý link Mega (xóa key mã hóa nếu có)
+        function getDirectLink(shareLink) {
+            if (shareLink.includes('mega.nz')) {
+                if (shareLink.includes('/enc/')) {
+                    errorDiv.textContent = 'Lỗi: Link Mega dạng /enc/ không hỗ trợ streaming. Vui lòng dùng link dạng https://mega.nz/file/UNIQUE_ID';
+                    return null;
+                }
+                if (!shareLink.includes('/file/')) {
+                    errorDiv.textContent = 'Lỗi: Link Mega không đúng định dạng. Dùng link dạng https://mega.nz/file/UNIQUE_ID';
+                    return null;
+                }
+                // Xóa key mã hóa (phần # trở đi)
+                const cleanLink = shareLink.split('#')[0];
+                return cleanLink;
+            }
+            return shareLink; // Link không phải Mega
+        }
+
+        // Tạo danh sách bài hát động
+        playlist.forEach((song, index) => {
+            const songDiv = document.createElement('div');
+            songDiv.className = 'song';
+            songDiv.textContent = song.title;
+            songDiv.onclick = () => playSong(song.shareLink, song.title);
+            playlistDiv.appendChild(songDiv);
+        });
+
+        // Hàm phát nhạc
+        function playSong(shareLink, songTitle) {
+            errorDiv.textContent = ''; // Xóa lỗi cũ
+            const url = getDirectLink(shareLink);
+            if (!url) {
+                console.error('Link không hợp lệ:', shareLink);
+                return;
+            }
+            console.log('Đang thử phát:', url);
+            player.src = url;
+            player.play().catch(error => {
+                console.error('Lỗi phát nhạc:', error.message, error);
+                errorDiv.textContent = `Lỗi phát nhạc: ${error.message}. Kiểm tra Console (F12) hoặc đảm bảo file MP3 chia sẻ công khai.`;
+            });
+            title.textContent = 'Đang phát: ' + songTitle;
+        }
+
+        // Kiểm tra trình duyệt hỗ trợ MP3
+        if (!player.canPlayType('audio/mpeg')) {
+            errorDiv.textContent = 'Lỗi: Trình duyệt không hỗ trợ định dạng MP3.';
+        }
+    </script>
+</body>
+</html>
