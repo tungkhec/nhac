@@ -105,7 +105,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi - Minh Phương",
-    musicPath: "https://drive.google.com/uc?export=download&id=/1TjSQpfmPUNVloNEZ3MWrIM5vOKfhnFGA",
+    musicPath: "https://drive.google.com/uc?export=view&id=1TjSQpfmPUNVloNEZ3MWrIM5vOKfhnFGA"
   },
   {
     backgroundImage: "./assets/images/a.jpg",
