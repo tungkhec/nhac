@@ -14,7 +14,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Rất nhiều ca sĩ",
-    musicPath: "./assets/music/khucxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/khucxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -23,7 +23,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi - Tăng Nhật Tuệ",
-    musicPath: "./assets/music/phutgiaothualangle.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/phutgiaothualangle.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -32,7 +32,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Nhiều ca sĩ",
-    musicPath: "./assets/music/thithammuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/thithammuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -41,7 +41,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Rất nhiều ca sĩ",
-    musicPath: "./assets/music/khucxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/khucxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -50,7 +50,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Diệu Linh",
-    musicPath: "./assets/music/muaxuangoi.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuangoi.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -59,7 +59,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thu Phương - Huy MC",
-    musicPath: "./assets/music/anhchoemmuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/anhchoemmuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -68,7 +68,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Đàm Vĩnh Hưng",
-    musicPath: "./assets/music/baicatetchoem.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/baicatetchoem.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -77,7 +77,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi",
-    musicPath: "./assets/music/binhyenlakhitrove.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/binhyenlakhitrove.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -86,7 +86,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Tốp ca",
-    musicPath: "./assets/music/cungdanmuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/cungdanmuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -95,8 +95,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mỹ Linh",
-    musicPath: "./assets/music/chieuxuan.mp3",
-  
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/chieuxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -105,7 +104,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi - Minh Phương",
-    musicPath: "https://archive.org/download/nhuhoamuaxuan/demgiaomua.mp3"
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/demgiaomua.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -114,7 +113,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Tam ca áo trắng",
-    musicPath: "./assets/music/diepkhucmuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/diepkhucmuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -123,7 +122,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Ngọc Linh",
-    musicPath: "./assets/music/diudangsacxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/diudangsacxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -132,7 +131,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Quang Linh",
-    musicPath: "./assets/music/doanxuanca.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/doanxuanca.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -141,7 +140,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Như Quỳnh",
-    musicPath: "./assets/music/donxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/donxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -150,7 +149,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Hoa",
-    musicPath: "./assets/music/hatvemuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/hatvemuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -159,7 +158,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mỹ Linh",
-    musicPath: "./assets/music/hoacomuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/hoacomuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -168,7 +167,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Phương Nga",
-    musicPath: "./assets/music/hoaxuanca.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/hoaxuanca.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -177,7 +176,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mỹ Linh - Anh Quân",
-    musicPath: "./assets/music/khucgiaomua.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/khucgiaomua.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -186,7 +185,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Hồng Nhung - Bằng Kiều",
-    musicPath: "./assets/music/langnghemuaxuanve.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/langnghemuaxuanve.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -195,7 +194,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Phương Linh",
-    musicPath: "./assets/music/loitotinhcuamuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/loitotinhcuamuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -204,7 +203,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "NSUT Kim Phúc",
-    musicPath: "./assets/music/motmuaxuannhonho.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/motmuaxuannhonho.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -213,7 +212,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Ngọc Điệp",
-    musicPath: "./assets/music/muachimenbay.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muachimenbay.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -222,7 +221,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Ngọc Ánh",
-    musicPath: "./assets/music/muaxuanbencuaso.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuanbencuaso.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -231,7 +230,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Thúy",
-    musicPath: "./assets/music/muaxuandautien.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuandautien.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -240,7 +239,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thu Phương",
-    musicPath: "./assets/music/muaxuandenroido.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuandenroido.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -249,7 +248,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Hoa",
-    musicPath: "./assets/music/muaxuanlanglualanghoa.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuanlanglualanghoa.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -258,7 +257,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mây trắng",
-    musicPath: "./assets/music/muaxuanoi.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuanoi.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -267,7 +266,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mỹ Tâm",
-    musicPath: "./assets/music/muaxuanoimuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuanoimuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -276,7 +275,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Hoa",
-    musicPath: "./assets/music/muaxuantrenquehuong.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/muaxuantrenquehuong.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -285,7 +284,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi",
-    musicPath: "./assets/music/nangcoconxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/nangcoconxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -294,7 +293,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mây trắng",
-    musicPath: "./assets/music/ngaytetqueem.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/ngaytetqueem.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -303,7 +302,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Nhiều ca sĩ",
-    musicPath: "./assets/music/ngayxuanlongphungxumvay.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/ngayxuanlongphungxumvay.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -312,7 +311,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Bảo Thy - Ái Phương - Văn Mai Hương",
-    musicPath: "./assets/music/nhuhoamuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/nhuhoamuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -321,7 +320,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Phan Huấn - Thúy Lan",
-    musicPath: "./assets/music/tinhcamuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/tinhcamuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -330,7 +329,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Tiêu Châu Như Quỳnh",
-    musicPath: "./assets/music/tinhkhucmuaxuan.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/tinhkhucmuaxuan.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -339,7 +338,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi",
-    musicPath: "./assets/music/tinhxuanque.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/tinhxuanque.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -348,7 +347,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Đan Trường - Cẩm Ly",
-    musicPath: "./assets/music/uocmongotngao.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/uocmongotngao.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -357,7 +356,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "TSD band",
-    musicPath: "./assets/music/xuanbenem.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/xuanbenem.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -366,7 +365,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi - Tiến Minh",
-    musicPath: "./assets/music/xuancuoi.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/xuancuoi.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -375,7 +374,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Lan",
-    musicPath: "./assets/music/xuandave.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/xuandave.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -384,7 +383,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thanh Lan",
-    musicPath: "./assets/music/xuanvatuoitre.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/xuanvatuoitre.mp3",
   },
   {
     backgroundImage: "./assets/images/a.jpg",
@@ -393,9 +392,8 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Mai Hương",
-    musicPath: "./assets/music/xuanhopmat.mp3",
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/xuanhopmat.mp3",
   },
-
 ];
 
 
@@ -443,9 +441,6 @@ for (let i = 0, len = musicData.length; i < len; i++) {
 
 /**
  * PLAYLIST MODAL SIDEBAR TOGGLE
- * 
- * show 'playlist' modal sidebar when click on playlist button in top app bar
- * and hide when click on overlay or any playlist-item
  */
 
 const playlistSideModal = document.querySelector("[data-playlist]");
@@ -464,9 +459,6 @@ addEventOnElements(playlistTogglers, "click", togglePlaylist);
 
 /**
  * PLAYLIST ITEM
- * 
- * remove active state from last time played music
- * and add active state in clicked music
  */
 
 const playlistItems = document.querySelectorAll("[data-playlist-item]");
@@ -489,8 +481,6 @@ addEventOnElements(playlistItems, "click", function () {
 
 /**
  * PLAYER
- * 
- * change all visual information on player, based on current music
  */
 
 const playerBanner = document.querySelector("[data-player-banner]");
@@ -518,11 +508,9 @@ const changePlayerInfo = function () {
 
 addEventOnElements(playlistItems, "click", changePlayerInfo);
 
-/** update player duration */
 const playerDuration = document.querySelector("[data-duration]");
 const playerSeekRange = document.querySelector("[data-seek]");
 
-/** pass seconds and get timcode formate */
 const getTimecode = function (duration) {
   const minutes = Math.floor(duration / 60);
   const seconds = Math.ceil(duration - (minutes * 60));
@@ -541,8 +529,6 @@ audioSource.addEventListener("loadeddata", updateDuration);
 
 /**
  * PLAY MUSIC
- * 
- * play and pause music when click on play button
  */
 
 const playBtn = document.querySelector("[data-play-btn]");
@@ -564,8 +550,6 @@ const playMusic = function () {
 playBtn.addEventListener("click", playMusic);
 
 
-/** update running time while playing music */
-
 const playerRunningTime = document.querySelector("[data-running-time]");
 
 const updateRunningTime = function () {
@@ -580,8 +564,6 @@ const updateRunningTime = function () {
 
 /**
  * RANGE FILL WIDTH
- * 
- * change 'rangeFill' width, while changing range value
  */
 
 const ranges = document.querySelectorAll("[data-range]");
@@ -600,8 +582,6 @@ addEventOnElements(ranges, "input", updateRangeFill);
 
 /**
  * SEEK MUSIC
- * 
- * seek music while changing player seek range
  */
 
 const seek = function () {
@@ -624,7 +604,7 @@ const isMusicEnd = function () {
     playerSeekRange.value = audioSource.currentTime;
     playerRunningTime.textContent = getTimecode(audioSource.currentTime);
     updateRangeFill();
-    skipNext(); // Chuyển sang bài hát tiếp theo khi bài hát hiện tại kết thúc
+    skipNext();
   }
 }
 
@@ -647,7 +627,7 @@ const skipNext = function () {
 
   changePlayerInfo();
   changePlaylistItem();
-  audioSource.play(); // Phát bài hát mới
+  audioSource.play();
 }
 
 playerSkipNextBtn.addEventListener("click", skipNext);
@@ -671,7 +651,7 @@ const skipPrev = function () {
 
   changePlayerInfo();
   changePlaylistItem();
-  audioSource.play(); // Phát bài hát mới
+  audioSource.play();
 }
 
 playerSkipPrevBtn.addEventListener("click", skipPrev);
@@ -682,14 +662,13 @@ playerSkipPrevBtn.addEventListener("click", skipPrev);
  * SHUFFLE MUSIC
  */
 
-/** get random number for shuffle */
 const getRandomMusic = () => Math.floor(Math.random() * musicData.length);
 
 const playedSongs = new Set();
 
 const shuffleMusic = () => {
   if (playedSongs.size === musicData.length) {
-    playedSongs.clear(); // reset when all songs have been played
+    playedSongs.clear();
   }
 
   let randomMusic;
@@ -733,8 +712,6 @@ playerRepeatBtn.addEventListener("click", repeat);
 
 /**
  * MUSIC VOLUME
- * 
- * increase or decrease music volume when change the volume range
  */
 
 const playerVolumeRange = document.querySelector("[data-volume]");
