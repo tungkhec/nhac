@@ -105,7 +105,7 @@ const musicData = [
     album: "Nhạc Sĩ...",
     year: 2025,
     artist: "Thùy Chi - Minh Phương",
-    musicPath: "https://docs.google.com/uc?export=open&id=1TjSQpfmPUNVloNEZ3MWrIM5vOKfhnFGA"
+    musicPath: "https://archive.org/download/nhuhoamuaxuan/demgiaomua.mp3"
   },
   {
     backgroundImage: "./assets/images/a.jpg",
